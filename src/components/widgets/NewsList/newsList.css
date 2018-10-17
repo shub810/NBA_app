@@ -1,0 +1,29 @@
+.newlist_items {
+    border: 1px solid #f2f2f2;
+    background: #ffffff;
+    margin-top: 0px;
+    padding: 8px 5px 0px 5px;
+}
+
+.newlist_items h2 {
+    font-size: 13px;
+    color: #525252;
+    margin: 5px 0;
+    line-height: 21px;
+}
+
+.newlist_items a {
+    text-decoration: none;
+}
+
+.newlist_items_wrapper {
+    box-sizing: border-box;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: all 0.5s ease-in;
+}
+
+.newlist_items_wrapper_active {
+    opacity: 1;
+    transform: translateX(0%);
+}
